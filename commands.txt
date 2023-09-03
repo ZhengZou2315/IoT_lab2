@@ -1,0 +1,27 @@
+sudo nano /etc/systemd/system/dbus-org.bluez.service
+
+https://github.com/rickyhh2/bluetooth_rfcomm_socket
+
+sudo pip install bluedot
+
+D8:3A:DD:21:3F:0E
+
+Device 98-2C-BC-BF-F9-AA S7-PIPO
+
+python3 pi_socket.py
+
+
+bluetoothctl
+
+discoverable on
+
+pairable on
+
+agent on
+
+default-agent
+
+connect 98:2C:BC:BF:F9:AE
+
+
+Device 98:2C:BC:BF:F9:AE LAPTOP-7J97S33R
